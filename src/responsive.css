@@ -1,0 +1,137 @@
+@media (max-width: 1439.98px) {
+    .mainContent .pageIntroduction h1{       
+        font-size: 32px;        
+    }
+    
+    .mainContent .pageIntroduction p{
+        font-size: 16px;      
+    }
+    
+    .mainContent .pageIntroduction button{
+        font-size: 13px;
+        width: 200px;
+        height: 54px;
+        border-radius: 36px;       
+    }
+}
+
+@media (max-width: 1299.98px) {
+    .header {
+        margin: 50px 35px;
+    }
+
+    .mainContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 20px;
+    }
+
+    .mainContent .pageIntroduction h1{       
+        font-size: 25px;        
+    }
+    
+    .mainContent .pageIntroduction p{
+        font-size: 14px;      
+    }
+    
+    .mainContent .pageIntroduction button{
+        font-size: 11px;
+        width: 180px;
+        height: 49px;
+        border-radius: 32px;       
+    }
+}
+
+@media (max-width: 1099.98px) {   
+    .mainContent .pageIntroduction{
+        margin-top: 18px;
+    }
+    .mainContent .pageIntroduction h1{       
+        font-size: 22px;        
+    }
+    
+    .mainContent .pageIntroduction p{
+        font-size: 12px;
+      
+    }
+    
+    .mainContent .pageIntroduction button{
+        font-size: 12px;
+        width: 164px;
+        height: 45px;
+        border-radius: 29px;      
+    }
+
+    .svg-inline--fa.fa-w-10,
+    .svg-inline--fa.fa-w-16,
+    .svg-inline--fa.fa-w-14{
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer ul li{             
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+@media (max-width:724.98px) {
+    body{
+        background: url("../src/images/bg-mobile.svg") no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: 105%;
+    }
+
+    .header img{
+        width: 40%;
+    }
+
+    .mainContent{      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 15px;
+    }
+
+    .illustration,
+    .pageIntroduction{
+        margin: 20px;
+    }
+
+    .pageIntroduction{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainContent .pageIntroduction h1,
+    .mainContent .pageIntroduction p
+    {
+        text-align: center;        
+    }
+
+    .mainContent .pageIntroduction h1{
+        width: 290px;
+    }
+
+    .mainContent .pageIntroduction p{
+        font-size: 17px;
+        width: 320px;
+    }
+
+    .mainContent .pageIntroduction button{
+        font-size: 12px;
+        padding: 10px;
+        margin-top: 30px;
+        width: 200px;
+        height: 40px;
+    }
+
+    .footer ul{  
+        justify-content: center;
+        margin: 40px 0;
+    }
+}
